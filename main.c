@@ -7,7 +7,8 @@ int main()
 
     printf("minganciguanlixitong\n");
     while(1)
-    {printf("1---tianjiaminganzifu\n");
+    {
+    printf("1---tianjiaminganzifu\n");
     printf("2---tianjiaminganzifu\n");
     printf("3---tianjiaminganzifu\n");
     printf("4---tianjiaminganzifu\n");
@@ -19,7 +20,17 @@ int main()
     scanf("%d",&code);
 
     if(code == 1){
-
+      printf("qingshuruyaoyianjiademinganzifu\n");
+      char m;
+      scanf("%c",&m);
+      scanf("%c",&m);
+      arr[index]=m;
+      index ++;
+      
+      printf("tianjiachenggong,dianjihuichejixu\n");
+      char x;
+      scanf("%c",&x);
+      scanf("%c",&x);
 
     }
     if(code == 2){

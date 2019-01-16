@@ -2,17 +2,22 @@
 
 char arr[1024];
 int index = 0;
-int isMingan(char x){
+int isMingan(char x)
+{
     int count = 0;
-    for(int i=0;i<index;i++){
-        if(x==arr[i]){
+    for (int i = 0; i < index; i++)
+    {
+        if (x == arr[i])
+        {
             count++;
         }
     }
-    if(count == 0){
+    if (count == 0)
+    {
         return 0;
     }
-    else{
+    else
+    {
         return 1;
     }
 }
@@ -74,7 +79,7 @@ int main()
             printf("qingshuruyiduanyingwen \n");
             char neirong[1024];
             scanf("%s", neirong);
-            for(int i=0;1;i++)
+            for (int i = 0; 1; i++)
             {
                 if (neirong[i] == '\0')
                 {
